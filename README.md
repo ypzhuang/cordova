@@ -1,1 +1,1 @@
-#Cordova 7.0.0
+# Cordova 7.0.0
