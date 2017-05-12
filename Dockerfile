@@ -1,8 +1,15 @@
-# ypzhuang/node
-FROM node:6.10.3-alpine
+FROM ypzhuang/android-sdk
 
-#TODO need android sdk ,gradle?
+MAINTAINER ypzhuang <sunbei914914@msn.com>
 
-ENV CORDOVA_VERSION 7.0.0
-RUN npm install -g cordova@$CORDOVA_VERSION
+ENV CORDOVA_VERSION 7.0.0 
+
+WORKDIR /opt
+
+RUN npm install -g cordova@$CORDOVA_VERSION 
 RUN cordova telemetry off
+
+
+
+
+
