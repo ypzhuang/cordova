@@ -1,4 +1,4 @@
-= Cordova 7.0.0
+= Cordova 7.0.1
 
 
 Cordova with Android SDK, Node, Oracle JDK on alpine

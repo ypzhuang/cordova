@@ -2,7 +2,7 @@ FROM ypzhuang/android-sdk
 
 MAINTAINER ypzhuang <sunbei914914@msn.com>
 
-ENV CORDOVA_VERSION 7.0.0 
+ENV CORDOVA_VERSION 7.0.1
 
 WORKDIR /opt
 
